@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #f8f7f7;
+    overflow-x: hidden;
+
+}
+
+#container {
+    width: 100vw;
+}
+
+#header {
+    display: flex;
+    height: 500px;
+    left: 0px;
+}
+
+#header-container {
+    margin: 53px 72px;
+}
+
+#header-container h1 {
+    color: #e62f23;
+    font-size: 3.4em;
+    font-weight: bolder;
+
+}
+
+#header-container h4 {
+
+    font-size: 1.4em;
+
+}
+
+#head-text {
+    margin: 50px;
+}
+
+#logo {
+
+    height: 5.3rem;
+}
+
+#banner {
+
+    margin-right: 33px;
+}
+
+#banner img {
+    height: 27.3rem;
+    width: 442px;
+
+}
+
+#client-container {
+
+    height: auto;
+
+    
+}
+#scroller{
+    animation: move 20s linear infinite;
+
+}
+
+@keyframes move {
+    0%{
+transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+#client-container h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.client-details-container {
+    margin: 15px 55px;
+    text-align: center;
+}
+
+.client-logo {
+    width: 135px;
+    height: 135px;
+}
+
+.client-name {
+    width: 16rem;
+}
+
+#built-app h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#app-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.build-feature {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.build-img {
+
+    width: 18rem;
+    height: 17rem;
+
+}
+
+.number {
+    color: #e62f23;
+    font-size: 4rem;
+}
+
+.feature-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#select-ui h2 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#ui-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.ui-image {
+    width: 13rem;
+    height: 25rem;
+    margin: 3em;
+    margin-bottom: 6rem;
+   
+}
+.selectui{
+    margin-bottom: 7rem;
+}
+
+#features h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+#feature-list {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 6rem;
+}
+
+.list {
+    margin: 2rem;
+
+}
+
+.items {
+    border: 2px solid #6c757d;
+    width: 18rem;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.feature-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.checkbox {
+    width: 3rem;
+    height: 3rem;
+ text-align: end;
+
+}
+
+
+.select-feature-text {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.items2 {
+    border: 2px solid #6c757d;
+    width: 21rem;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#preview h2 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 43px 10px;
+}
+
+#previre-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.showing1, .showing2, .showing3,.showing4, .showing5, .showing6 {
+    display: none;
+}
+
+
+.imgpreview {
+    display: flex;
+    width: 7.7rem;
+    height: 15rem;
+    margin: 1rem;
+    margin-bottom: 10rem;
+}
+
+#form-container {
+    margin-bottom: 21rem;
+}
+
+#formbg {
+
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 72rem;
+    margin-bottom: -10.5%;
+    margin-top: 7.5rem;
+    position: relative;
+}
+
+#enq-form {
+    height: auto;
+    background-color: #FFFFFF;
+    width: 27rem;
+    border: 2px solid #ffff;
+    position: absolute;
+
+}
+
+#frm-logo-conatiner {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+#frm-logo {
+    width: 9rem;
+    height: 3.5rem;
+}
+
+#form {
+    margin: 1.5rem;
+}
+
+.txtbox label {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #1b1818;
+
+}
+
+.input-box {
+    height: 2.5rem;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #6c757d;
+    margin-bottom: 10px;
+
+}
+
+.input-box::placeholder {
+    font-size: 20px;
+}
+
+#submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#submit-btn span {
+    color: #6c757d;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+#submit {
+    background-color: #ef6f64;
+    color: #fae6f5;
+    text-align: center;
+    border: none;
+    height: 2rem;
+    border-radius: 30px;
+    width: 9rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #FFFFFF;
+    flex-direction: column;
+    padding: 2rem;
+    line-height: 33px;
+}
+
+#footer-container a {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+/* about css */
+
+#about-header {
+    display: flex;
+    height: 500px;
+    left: 0px;
+
+}
+
+#about-header-container {
+    margin: 53px 72px;
+}
+
+#about-header-container h1 {
+    color: #e62f23;
+    font-size: 3.4em;
+    font-weight: bolder;
+
+}
+
+#about-header-container h4 {
+
+    font-size: 1.3em;
+    line-height: 2rem;
+}
+
+#head-text {
+    margin: 50px;
+}
+
+#logo {
+
+    height: 5.3rem;
+}
+
+#about-banner {
+
+    margin-right: 33px;
+}
+
+#about-banner img {
+    height: 27.3rem;
+    width: 442px;
+    margin-left: 8rem;
+}
+
+
+/* privacy Policy */
+
+
+nav {
+    background-color: #ffffff;
+    border: solid white;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav img {
+    width: 92px;
+    margin: 20px;
+}
+
+#privacy-text {
+    margin: 11% 94px;
+}
+
+#privacy-text p {
+    color: #1d2022;
+    line-height: 18px;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+
+li {
+    color: #1d2022;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+
+/* terms */
+
+#term-text {
+    margin: 11% 100px;
+}
+
+#term-text p {
+    color: #1d2022;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 3rem 0;
+}
+
+#term-heading {
+    color: #1d2022;
+    margin: 4rem 0;
+}
+
+.point {
+    color: #2d81f7;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#term-text h5 {
+    font-size: 19px;
+    margin: 20px 0;
+    color: #1d2022;
+    font-weight: lighter;
+}
+
+#general {
+    margin-top: 4rem;
+}
+
+/* Refund */
+
+#refund-text {
+
+    margin: 12% 11rem;
+    color: #1d2022;
+}
+
+#refund-text p {
+    color: #1d2022;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 1rem 0;
+    font-weight: lighter;
+}

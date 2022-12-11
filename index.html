@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appx - Empowering Creators</title>
+    <link rel="shortcut icon" type="image/png" href="img/sortcut-icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="header-container">
+                <img src="img/app-logo.png" alt="Appx" id="logo" />
+                <div id="head-text">
+                    <h1>Empowering creators with mobile apps!</h1>
+                    <h4>Let's build your mobile app <br>below</h4>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="img/home/homebanner.png" alt="Banner">
+            </div>
+        </div>
+        <div id="client-container">
+            <h2>Our Clients</h2>
+
+            <div id="scroller">
+
+                    <div id="client">
+
+                        <div class="client-details-container"><img src="img/client/exampur_circular.png" alt="Exampur"
+                                class="client-logo">
+                            <h3 class="client-name">Exampur</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/getflyscience.png"
+                                alt="Get Fly Science" class="client-logo">
+                            <h3 class="client-name">Get Fly Science</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/letslearn.png" alt="Let's Learn"
+                                class="client-logo">
+                            <h3 class="client-name">Let's Learn</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/mathsvatika.png" alt="Maths Vatika"
+                                class="client-logo">
+                            <h3 class="client-name">Maths Vatika</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/mnlive.png" alt="MN Live"
+                                class="client-logo">
+                            <h3 class="client-name">MN Live</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/my _classroom_foundation.png"
+                                alt=" My Classroom Foundation" class="client-logo">
+                            <h3 class="client-name">My Classroom </h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/quantum_page_circular.png"
+                                alt="Quantam Series" class="client-logo">
+                            <h3 class="client-name">Quantam Series</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/rojgar_with_ankit.png"
+                                alt="Rojgar with Ankit" class="client-logo">
+                            <h3 class="client-name">Rojgar with Ankit</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/satisfied_classes.png"
+                                alt="Satisfied Classes" class="client-logo">
+                            <h3 class="client-name">Satisfied Classes</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/smart_video_coaching.png"
+                                alt="Smart Video Coaching" class="client-logo">
+                            <h3 class="client-name">Smart Video Coaching</h3>
+                        </div>
+                        <div class="client-details-container"><img src="img/client/vidhyapeeth_times.png"
+                                alt="Vidhyapeeth Times" class="client-logo">
+                            <h3 class="client-name">Vidhyapeeth Times</h3>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div id="built-app">
+            <h1>Let's Build your App
+            </h1>
+            <div id="app-img">
+                <div id="img1" class="build-feature">
+                    <h2 class="number">1.</h2><br>
+                    <h5 class="feature-text">Select UI</h5><br>
+                    <img src="/img//home/1.png" alt="Select UI" class="build-img">
+                </div>
+                <div id="img2" class="build-feature">
+                    <h2 class="number">2.</h2><br>
+                    <h5 class="feature-text">Select Features</h5><br>
+                    <img src="/img//home/2.png" alt="Select Features" class="build-img">
+                </div>
+                <div id="img3" class="build-feature">
+                    <h2 class="number">3. </h2><br>
+                    <h5 class="feature-text">Enter App Details</h5><br>
+                    <img src="/img//home/3.png" alt="Enter App Details" class="build-img">
+                </div>
+            </div>
+        </div>
+
+        <div id="select-ui">
+            <h2>Select a UI
+            </h2>
+            <div id="ui-images">
+                <div id="ui" onclick="selectui()" name="uidesign">
+                    <img src="img/home/i12_1-5.png" alt="UI-1" class="ui-image">
+                </div>
+                <div id="ui2" onclick="selectui2()" name="uidesign">
+                    <img src="img/home/i12_1-8.png" alt="UI-2" class="ui-image" onclick="selectui()">
+                </div>
+                <div id="ui3" onclick="selectui3()" name="uidesign">
+                    <img src="img/home/i12_1-8.png" alt="UI-3" class="ui-image" onclick="selectui()">
+                </div>
+            </div>
+        </div>
+        <div id="features">
+            <h1>Select Features
+            </h1>
+            <div id="feature-list">
+                <div id="list1" class="list">
+                    <div id="item1" class="items" onclick="showfeature()"><img src="img/feature/Courses.png"
+                            alt="Course" class="feature-img">
+                        <h2 class="select-feature-text">Courses</h2><img src="img/tick.PNG" alt="Checked"
+                            class="checkbox showing1" id="checkbox1" />
+                    </div>
+                    <div id="item2" class="items" onclick="showfeature2()"><img src="img/feature/Mock-Test.png"
+                            alt="Mock Test" class="feature-img">
+                        <h2 class="select-feature-text">Mock Test</h2><img src="img/tick.PNG" alt="Checked"
+                            class="checkbox showing2" id="checkbox2" />
+                    </div>
+                    <div id="item3" class="items" onclick="showfeature3()"><img src="img/feature/E-Book.png"
+                            alt="E-Book" class="feature-img">
+                        <h2 class="select-feature-text">E-Book</h2><img src="img/tick.PNG" alt="Checked"
+                            class="checkbox showing3" id="checkbox3" />
+                    </div>
+                </div>
+                <div id="list2" class="list">
+                    <div id="item1" class="items2" onclick="showfeature4()"><img src="img/feature/Live-Session.png"
+                            alt="Course" class="feature-img">
+                        <h2 class="select-feature-text">Live Session</h2><img src="img/tick.PNG" alt="Checked"
+                            class="checkbox showing4" id="checkbox4" />
+                    </div>
+                    <div id="item2" class="items2" onclick="showfeature5()"><img src="img/feature/Blog.png"
+                            alt="Mock Test" class="feature-img">
+                        <h2 class="select-feature-text">Blog</h2><img src="img/tick.PNG" alt="Checked"
+                            class="checkbox showing5" id="checkbox5" />
+                    </div>
+                    <div id="item3" class="items2" onclick="showfeature6()"><img src="img/feature/Community.png"
+                            alt="E-Book" class="feature-img">
+                        <h2 class="select-feature-text">Community</h2><img src="img/tick.PNG" alt="Checked"
+                            class="checkbox showing6" id="checkbox6" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="preview">
+            <h2>App Preview
+            </h2>
+            <div id="previre-img-container">
+                <div class="preview-img showing1" id="prev1"><img src="img/app-preview/courses.png" alt="courses"
+                        class="imgpreview "></div>
+                <div class="preview-img showing2" id="prev2"><img src="img/app-preview/mock.png" alt="Mock Test"
+                        class="imgpreview "></div>
+                <div class="preview-img showing3" id="prev3"><img src="img/app-preview/ebook.png" alt="E-Book"
+                        class="imgpreview ">
+                </div>
+                <div class="preview-img showing4" id="prev4"><img src="img/app-preview/live.png" alt="Live Session"
+                        class="imgpreview ">
+                </div>
+                <div class="preview-img  showing5" id="prev5"><img src="img/app-preview/blog.png" alt="Blog"
+                        class="imgpreview">
+                </div>
+                <div class="preview-img showing6" id="prev6"><img src="img/app-preview/community.png" alt="Community"
+                        class="imgpreview ">
+                </div>
+            </div>
+        </div>
+
+        <div id="form-container">
+
+            <div id="formbg">
+                <img src="img/form.png" alt="Form" id="formbg" />
+                <form action="#" id="enq-form">
+                    <div id="frm-logo-conatiner"><img src="img/Appx-form-Logo.png" alt="Appx" id="frm-logo"></div>
+
+                    <div id="form">
+                        <div class="txtbox">
+                            <label for="appname">App Name</label><br>
+                            <input type="text" name="appname" id="appname" placeholder="Enter Your App Name"
+                                class="input-box" required /><br>
+                        </div>
+                        <div class="txtbox">
+                            <label for="txtemail">E-mail</label><br>
+                            <input type="email" name="txtemail" id="txtemail" placeholder="Enter Your Email"
+                                class="input-box" required /><br>
+                        </div>
+                        <div class="txtbox">
+                            <label for="txttel">Phone</label><br>
+                            <input type="tel" name="txttel" id="txttel" placeholder="Enter Your Phone no."
+                                class="input-box" required /><br>
+                        </div>
+                        <div class="txtbox">
+                            <label for="ytlink">YouTube Channel</label><br>
+                            <input type="url" name="ytlink" id="ytlink" placeholder="Enter Your YouTube Link"
+                                class="input-box" required /><br>
+                        </div>
+
+
+
+                        <div id="submit-btn">
+                            <span id="note">No Credit Card Required</span>
+                            <input type="submit" value="Submit" id="submit" />
+                        </div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div id="footer-container">
+        <img src="img/ft.png" alt="Appx">
+        <h2>© 2020 Appx. All rights reserved</h2>
+        <h3>Address: 54, Sudama Market, Moti Nagar, New Delhi-110015</h3>
+        <p>Ph. No: +91 7206392937</p>
+        <p>Email: info@appx.co.in</p>
+        <h3><a href="footer/about.html">About Us</a></h3>
+        <h3><a href="footer/privcay.html">Privacy Policy</a></h3>
+        <h3><a href="footer/terms.html">Terms and Conditions</a></h3>
+        <h3><a href="footer/refund.html">Refund & Cancellation Policy</a></h3>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
